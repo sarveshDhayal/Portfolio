@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sarvesh Kumar - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="#" class="logo">S<span>.</span></a>
+        
+        <nav class="nav-desktop">
+          <ul>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+          <a href="/resume.pdf" class="portfolio-button" target="_blank" rel="noopener noreferrer">Resume</a>
+        </nav>
+        
+        <button class="mobile-menu-button" aria-label="Menu">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+      
+      <div class="mobile-menu">
+        <nav>
+          <ul>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+          <a href="/resume.pdf" class="portfolio-button" target="_blank" rel="noopener noreferrer">Resume</a>
+        </nav>
+      </div>
+    </header>
+    
+    <main>
+      <!-- Hero Section -->
+      <section id="hero" class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <p class="greeting">Hi, my name is</p>
+            <h1 class="name">Sarvesh Kumar</h1>
+            <h2 class="tagline">I build things for the web.</h2>
+            <p class="description">
+              I'm a student developer focused on building accessible, human-centered digital experiences.
+              Currently studying at Newton School of Technology.
+            </p>
+            <a href="#about" class="portfolio-button">
+              Get to know me
+              <i data-lucide="arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      
+      <!-- About Section -->
+      <section id="about" class="section">
+        <div class="container">
+          <h2 class="section-heading">About Me</h2>
+          
+          <div class="about-content">
+            <div class="about-text">
+              <p>
+                Hello! I'm Sarvesh, a passionate student developer currently pursuing my education 
+                at Newton School of Technology. I enjoy creating things that live on the internet, 
+                whether that be websites, applications, or anything in between.
+              </p>
+              
+              <p>
+                My interest in web development started when I was in school, fascinated by how websites
+                work and how they're built. This curiosity led me to begin my journey in programming, 
+                starting with HTML & CSS, and gradually moving to more complex technologies.
+              </p>
+              
+              <p>
+                Currently, I'm focused on expanding my knowledge in modern web development frameworks
+                and deepening my understanding of programming concepts. I'm also actively seeking
+                opportunities to apply my skills to real-world projects.
+              </p>
+
+              <p>
+                When I'm not coding, you might find me exploring new technologies, contributing to open-source,
+                or engaging with the developer community.
+              </p>
+            </div>
+            
+            <div class="about-image-container">
+              <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158" alt="Sarvesh Kumar" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Skills Section -->
+      <section id="skills" class="section skills">
+        <div class="container">
+          <h2 class="section-heading">Skills</h2>
+          
+          <div class="skills-cards">
+            <div class="skill-card">
+              <div class="skill-header">
+                <i data-lucide="layout"></i>
+                <h3>Frontend</h3>
+              </div>
+              <div class="skill-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>React</span>
+              </div>
+            </div>
+            
+            <div class="skill-card">
+              <div class="skill-header">
+                <i data-lucide="code"></i>
+                <h3>Programming Languages</h3>
+              </div>
+              <div class="skill-tags">
+                <span>JavaScript</span>
+                <span>Python</span>
+              </div>
+            </div>
+            
+            <div class="skill-card">
+              <div class="skill-header">
+                <i data-lucide="globe"></i>
+                <h3>Web Technologies</h3>
+              </div>
+              <div class="skill-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Responsive Design</span>
+              </div>
+            </div>
+            
+            <div class="skill-card">
+              <div class="skill-header">
+                <i data-lucide="github"></i>
+                <h3>Tools & Others</h3>
+              </div>
+              <div class="skill-tags">
+                <span>Git</span>
+                <span>Figma</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="skills-list">
+            <h3>Technologies I work with</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Python</li>
+              <li>React</li>
+              <li>Git</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Projects Section -->
+      <section id="projects" class="section">
+        <div class="container">
+          <h2 class="section-heading">Projects</h2>
+          
+          <div class="projects-grid">
+            <div class="project-card">
+              <div class="project-content">
+                <div class="project-header">
+                  <i data-lucide="folder"></i>
+                  <div class="project-links">
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                      <i data-lucide="github"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                      <i data-lucide="external-link"></i>
+                    </a>
+                  </div>
+                </div>
+                <h3 class="project-title">Personal Portfolio</h3>
+                <p class="project-description">A responsive portfolio website showcasing my skills and projects.</p>
+                <div class="project-tech-list">
+                  <span>React</span>
+                  <span>Tailwind CSS</span>
+                  <span>JavaScript</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="project-card">
+              <div class="project-content">
+                <div class="project-header">
+                  <i data-lucide="folder"></i>
+                  <div class="project-links">
+                    <a href="https://github.com/sarveshDhayal/Joke.git" target="_blank" rel="noopener noreferrer">
+                      <i data-lucide="github"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                      <i data-lucide="external-link"></i>
+                    </a>
+                  </div>
+                </div>
+                <h3 class="project-title">Random Joke</h3>
+                <p class="project-description">A web for generating random funny jokes..</p>
+                <div class="project-tech-list">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-content">
+                <div class="project-header">
+                  <i data-lucide="folder"></i>
+                  <div class="project-links">
+                    <a href="https://github.com/sarveshDhayal/youtube.git" target="_blank" rel="noopener noreferrer">
+                      <i data-lucide="github"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                      <i data-lucide="external-link"></i>
+                    </a>
+                  </div>
+                </div>
+                <h3 class="project-title">YouTube Clone</h3>
+                <p class="project-description">A basic YouTube clone with video browsing, search, and interactive UI.</p>
+                <div class="project-tech-list">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-content">
+                <div class="project-header">
+                  <i data-lucide="folder"></i>
+                  <div class="project-links">
+                    <a href="https://github.com/sarveshDhayal/Web.git" target="_blank" rel="noopener noreferrer">
+                      <i data-lucide="github"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                      <i data-lucide="external-link"></i>
+                    </a>
+                  </div>
+                </div>
+                <h3 class="project-title">MenuVista - Restaurant Menu</h3>
+                <p class="project-description">A beautifully designed restaurant menu page with categories and pricing.</p>
+                <div class="project-tech-list">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Education Section -->
+      <section id="education" class="section">
+        <div class="container">
+          <h2 class="section-heading">Education</h2>
+          
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-icon">
+                <i data-lucide="school"></i>
+              </div>
+              <div class="timeline-content">
+                <h3>Newton School of Technology</h3>
+                <div class="timeline-date">
+                  <i data-lucide="calendar"></i>
+                  <span>2024 - Present</span>
+                </div>
+                <p>Bachelor of Technology - 1st Year</p>
+                <ul>
+                  <li>Currently pursuing a degree in Computer Science.</li>
+                  <li>Focusing on web development and programming fundamentals.</li>
+                  <li>Engaged in various coding projects and technical workshops.</li>
+                  <li>Developing skills in HTML, CSS, JavaScript, Python, and React.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-icon">
+                <i data-lucide="school"></i>
+              </div>
+              <div class="timeline-content">
+                <h3>Prince Uch Madhyamik Vidyalaya</h3>
+                <div class="timeline-date">
+                  <i data-lucide="calendar"></i>
+                  <span>2023-2024</span>
+                </div>
+                <p>Higher Secondary Education (12th Grade)</p>
+                <ul>
+                  <li>Studied in the Science stream with a focus on Physics, Chemistry, and Mathematics.</li>
+                  <li>Prepared for competitive exams and strengthened conceptual understanding.</li>
+                  <li>Actively participated in school events and extracurricular activities.</li>
+                  <li>Maintained good academic performance across all subjects.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-icon">
+                <i data-lucide="school"></i>
+              </div>
+              <div class="timeline-content">
+                <h3>Prince Uch Madhyamik Vidyalaya</h3>
+                <div class="timeline-date">
+                  <i data-lucide="calendar"></i>
+                  <span>2021-2022</span>
+                </div>
+                <p>Secondary Education (10th Grade)</p>
+                <ul>
+                  <li>Excelled in foundational education with strong performance in Social Science and Science.</li>  
+                  <li>Qualified and performed well in exams like **NTSE, STSE, and various Olympiads (NSO, ISO)**.</li>  
+                  <li>Developed a deep understanding of historical, geographical, and scientific concepts.</li>  
+                  <li>Secured high scores in board examinations with excellent grades.</li>  
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      
+      <!-- Contact Section -->
+      <section id="contact" class="section contact">
+        <div class="container">
+          <h2 class="section-subtitle">04. What's Next?</h2>
+          <h3 class="contact-title">Get In Touch</h3>
+          <p class="contact-text">
+            I'm currently looking for new opportunities to collaborate, learn and grow. Whether you have a question or just want to say hi, I'll do my best to get back to you!
+          </p>
+          <a href="mailto:sarvesh@example.com" class="portfolio-button">
+            Say Hello
+            <i data-lucide="send"></i>
+          </a>
+        </div>
+      </section>
+    </main>
+    
+    <footer class="footer">
+      <div class="container">
+        <div class="social-links">
+          <a href="https://github.com/sarveshDhayal" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <i data-lucide="github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/sarvesh-kumar-b63430323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i data-lucide="linkedin"></i>
+          </a>
+          <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+            <i data-lucide="twitter"></i>
+          </a>
+          <a href="sarvesh.kumar2024@nst.rishihood.edu.in" aria-label="Email">
+            <i data-lucide="mail"></i>
+          </a>
+        </div>
+        <p class="copyright">Designed &amp; Built by Sarvesh Kumar</p>
+      </div>
+    </footer>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
